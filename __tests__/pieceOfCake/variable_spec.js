@@ -5,7 +5,7 @@ describe('for variable', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 6;
     // --end->
 
     // eslint-disable-next-line block-scoped-var
@@ -20,7 +20,7 @@ describe('for variable', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 1000;
     // --end->
 
     // eslint-disable-next-line no-undef
@@ -33,7 +33,7 @@ describe('for variable', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 'new name';
     // --end->
 
     expect(constVariable.name).toEqual(expected);
