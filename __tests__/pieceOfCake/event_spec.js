@@ -16,7 +16,7 @@ describe('for event', () => {
 
     // <--start
     // Please add the event listener to handle `click` event on `element`.
-
+    element.addListener('click', onClick);
     // --end->
 
     element.emit('click');
@@ -34,7 +34,7 @@ describe('for event', () => {
       .then(() => {
         // <--start
         // Please write down the correct value. You should write the final result directly.
-        const expected = undefined;
+        const expected = ['I have been clicked', 'I have been clicked'];
         // --end->
 
         expect(logs).toEqual(expected);
@@ -57,7 +57,7 @@ describe('for event', () => {
       .then(() => {
         // <--start
         // Please write down the correct value. You should write the final result directly.
-        const expected = undefined;
+        const expected = ['I have been clicked'];
         // --end->
 
         expect(logs).toEqual(expected);
